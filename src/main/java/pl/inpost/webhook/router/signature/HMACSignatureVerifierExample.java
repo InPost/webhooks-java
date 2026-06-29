@@ -18,7 +18,7 @@ public class HMACSignatureVerifierExample {
 
   public HMACSignatureVerifierExample() {
     this.algorithm = "HmacSHA256";
-    this.key = "this is example of the HMAC key";
+    this.key = "this is an example of the HMAC key";
   }
 
   public boolean verifySignature(String body, String signatureFromXInPostSignatureHeader) {
